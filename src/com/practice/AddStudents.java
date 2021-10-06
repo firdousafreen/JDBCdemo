@@ -79,12 +79,7 @@ public class AddStudents {
                         ")"
                 );
             }
-
-           /* int[] rollNumbers = test.getRollNoFromFile("deletestudent.txt");
-            for(int i=0;i<rollNumbers.length;i++){
-                stmt.executeUpdate("delete from student where studentId="+rollNumbers[i]);
-
-            }*/
+			
             stmt.close();
             conn.close();
         } catch (SQLException | IOException e) {
